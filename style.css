@@ -1,16 +1,103 @@
-### Hi there 👋
 
-<!--
-**Flymevampire/Flymevampire** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+body,td,th {
+font-family: Zawgyi-One;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: Zawgyi-One;
+}
+#head-container
+{
+color: #000;
+background: #ccc;
+}
+#header
+{
+margin: 0 auto;
+width: 860px;
+padding: 20px;
+background: #ddd;
+}
+#header h1 { margin: 0; }
+#menu-container
+{
+float: left;
+width: 100%;
+color: #000;
+background: #333;
+}
+#menu
+{
+margin: 0 auto;
+width: 900px;
+}
+#menu ul
+{
+margin: 0;
+padding: 0;
+}
+#menu ul li
+{
+list-style-type: none;
+display: inline;
+}
+#menu li a
+{
+display: block;
+float: left;
+padding: 5px 10px;
+color: #fff;
+text-decoration: none;
+border-right: 1px solid #fff;
+}
+#menu li a:hover { background: #383; }
+#content-container
+{
+float: left;
+width: 100%;
+color: #000;
+background: #eee;
+}
+#content-container2
+{
+margin: 0 auto;
+width: 900px;
+}
+#content-container3
+{
+float: left;
+width: 900px;
+background: #FFF url(two-fixed-background.gif) repeat-y 100% 0;
+}
+#content
+{
+clear: left;
+float: left;
+width: 560px;
+padding: 20px 0;
+margin: 0 0 0 30px;
+display: inline;
+}
+#content h2 { margin: 0; }
+#rightnav
+{
+float: right;
+width: 240px;
+padding: 20px 0;
+margin: 0 20px 0 0;
+display: inline;
+}
+#rightnav h3 { margin: 0; }
+#footer-container
+{
+clear: left;
+color: #fff;
+background: #000;
+}
+#footer
+{
+margin: 0 auto;
+width: 900px;
+text-align: right;
+padding: 20px;
+height: 1%;
+}
